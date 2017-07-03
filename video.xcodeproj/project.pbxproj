@@ -13,6 +13,10 @@
 		DFB3552D1F0A467200686FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB3552B1F0A467200686FE3 /* Main.storyboard */; };
 		DFB3552F1F0A467200686FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB3552E1F0A467200686FE3 /* Assets.xcassets */; };
 		DFB355321F0A467200686FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB355301F0A467200686FE3 /* LaunchScreen.storyboard */; };
+		DFB355401F0A469300686FE3 /* AVPlayerDownBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB3553A1F0A469300686FE3 /* AVPlayerDownBar.m */; };
+		DFB355411F0A469300686FE3 /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB3553C1F0A469300686FE3 /* AVPlayerManager.m */; };
+		DFB355421F0A469300686FE3 /* TQZAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB3553D1F0A469300686FE3 /* TQZAVPlayer.m */; };
+		DFB355431F0A469300686FE3 /* UIDevice+XJDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB3553F1F0A469300686FE3 /* UIDevice+XJDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		DFB3552E1F0A467200686FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB355311F0A467200686FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFB355331F0A467200686FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB355391F0A469300686FE3 /* AVPlayerDownBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerDownBar.h; sourceTree = "<group>"; };
+		DFB3553A1F0A469300686FE3 /* AVPlayerDownBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerDownBar.m; sourceTree = "<group>"; };
+		DFB3553B1F0A469300686FE3 /* AVPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerManager.h; sourceTree = "<group>"; };
+		DFB3553C1F0A469300686FE3 /* AVPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerManager.m; sourceTree = "<group>"; };
+		DFB3553D1F0A469300686FE3 /* TQZAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQZAVPlayer.m; sourceTree = "<group>"; };
+		DFB3553E1F0A469300686FE3 /* UIDevice+XJDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XJDevice.h"; sourceTree = "<group>"; };
+		DFB3553F1F0A469300686FE3 /* UIDevice+XJDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XJDevice.m"; sourceTree = "<group>"; };
+		DFB355441F0A46C700686FE3 /* TQZAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQZAVPlayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 		DFB355211F0A467200686FE3 /* video */ = {
 			isa = PBXGroup;
 			children = (
+				DFB355391F0A469300686FE3 /* AVPlayerDownBar.h */,
+				DFB3553A1F0A469300686FE3 /* AVPlayerDownBar.m */,
+				DFB3553B1F0A469300686FE3 /* AVPlayerManager.h */,
+				DFB3553C1F0A469300686FE3 /* AVPlayerManager.m */,
+				DFB355441F0A46C700686FE3 /* TQZAVPlayer.h */,
+				DFB3553D1F0A469300686FE3 /* TQZAVPlayer.m */,
+				DFB3553E1F0A469300686FE3 /* UIDevice+XJDevice.h */,
+				DFB3553F1F0A469300686FE3 /* UIDevice+XJDevice.m */,
 				DFB355251F0A467200686FE3 /* AppDelegate.h */,
 				DFB355261F0A467200686FE3 /* AppDelegate.m */,
 				DFB355281F0A467200686FE3 /* ViewController.h */,
@@ -152,8 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFB3552A1F0A467200686FE3 /* ViewController.m in Sources */,
+				DFB355401F0A469300686FE3 /* AVPlayerDownBar.m in Sources */,
+				DFB355431F0A469300686FE3 /* UIDevice+XJDevice.m in Sources */,
 				DFB355271F0A467200686FE3 /* AppDelegate.m in Sources */,
+				DFB355421F0A469300686FE3 /* TQZAVPlayer.m in Sources */,
 				DFB355241F0A467200686FE3 /* main.m in Sources */,
+				DFB355411F0A469300686FE3 /* AVPlayerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
